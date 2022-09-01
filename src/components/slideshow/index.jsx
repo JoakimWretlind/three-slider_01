@@ -3,19 +3,19 @@ import gsap from "gsap";
 import { Plane, useCurtains } from "react-curtains";
 import { vertexShader, fragmentShader } from "../shaders/shaders";
 
-import test001 from '../../utils/displacementMaps/test_001.jpeg'
-import disp001 from '../../utils/displacementMaps/disp_001.jpg'
-import disp002 from '../../utils/displacementMaps/disp_002.jpg'
-import disp003 from '../../utils/displacementMaps/disp_003.jpg'
-import disp004 from '../../utils/displacementMaps/disp_004.jpg'
-import disp005 from '../../utils/displacementMaps/disp_005.jpg'
-import disp006 from '../../utils/displacementMaps/disp_006.png'
-import disp007 from '../../utils/displacementMaps/disp_007.png'
-import disp008 from '../../utils/displacementMaps/disp_008.jpg'
-import disp010 from '../../utils/displacementMaps/disp_010.jpg'
-import disp011 from '../../utils/displacementMaps/disp_011.png'
-import disp013 from '../../utils/displacementMaps/disp_013.jpg'
-import disp015 from '../../utils/displacementMaps/disp_015.png'
+// import test001 from '../../utils/displacementMaps/test_001.jpeg'
+// import disp001 from '../../utils/displacementMaps/disp_001.jpg'
+// import disp002 from '../../utils/displacementMaps/disp_002.jpg'
+// import disp003 from '../../utils/displacementMaps/disp_003.jpg'
+// import disp004 from '../../utils/displacementMaps/disp_004.jpg'
+// import disp005 from '../../utils/displacementMaps/disp_005.jpg'
+// import disp006 from '../../utils/displacementMaps/disp_006.png'
+// import disp007 from '../../utils/displacementMaps/disp_007.png'
+// import disp008 from '../../utils/displacementMaps/disp_008.jpg'
+// import disp010 from '../../utils/displacementMaps/disp_010.jpg'
+// import disp011 from '../../utils/displacementMaps/disp_011.png'
+// import disp013 from '../../utils/displacementMaps/disp_013.jpg'
+// import disp015 from '../../utils/displacementMaps/disp_015.png'
 import disp016 from '../../utils/displacementMaps/disp_016.jpg'
 import { H1 } from "./style";
 
